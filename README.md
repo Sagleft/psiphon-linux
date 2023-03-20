@@ -1,16 +1,17 @@
 # Brainfuck Tunnel - Psiphon Pro Go Version
 
-...
 
-
-Requirements
+Requirements & build
 ------------
 
 **Linux**
 
-    git
-    golang
-    redsocks
+build:
+```bash
+sudo apt-get install -y git golang redsocks
+git clone https://github.com/Sagleft/psiphon-linux.git
+go build -ldflags "-s -w"
+```
 
 **Windows**
 
